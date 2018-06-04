@@ -42,6 +42,7 @@
             // 
             // txtName
             // 
+            this.txtName.Enabled = false;
             this.txtName.Location = new System.Drawing.Point(16, 29);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(100, 20);
@@ -67,6 +68,7 @@
             // 
             // listHand
             // 
+            this.listHand.Enabled = false;
             this.listHand.FormattingEnabled = true;
             this.listHand.Location = new System.Drawing.Point(608, 29);
             this.listHand.Name = "listHand";
@@ -96,6 +98,7 @@
             this.txtProgress.Location = new System.Drawing.Point(13, 73);
             this.txtProgress.Multiline = true;
             this.txtProgress.Name = "txtProgress";
+            this.txtProgress.ReadOnly = true;
             this.txtProgress.Size = new System.Drawing.Size(589, 475);
             this.txtProgress.TabIndex = 6;
             // 
@@ -113,12 +116,14 @@
             this.txtBooks.Location = new System.Drawing.Point(13, 572);
             this.txtBooks.Multiline = true;
             this.txtBooks.Name = "txtBooks";
+            this.txtBooks.ReadOnly = true;
             this.txtBooks.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtBooks.Size = new System.Drawing.Size(589, 138);
             this.txtBooks.TabIndex = 8;
             // 
             // btnAskCard
             // 
+            this.btnAskCard.Enabled = false;
             this.btnAskCard.Location = new System.Drawing.Point(609, 664);
             this.btnAskCard.Name = "btnAskCard";
             this.btnAskCard.Size = new System.Drawing.Size(206, 35);
