@@ -16,7 +16,7 @@ namespace Chapter_8___Go_Fish
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new form1());
         }
     }
 }

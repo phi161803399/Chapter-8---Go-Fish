@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Chapter_8___Go_Fish
 {
-    public partial class Form1 : Form
+    public partial class form1 : Form
     {
-        public Form1()
+        public form1()
         {
             InitializeComponent();
         }
